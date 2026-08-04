@@ -864,7 +864,8 @@ button{ font-family: inherit; cursor: pointer; }
   .form-row{ grid-template-columns: 1fr; }
   .footer-grid{ grid-template-columns: 1fr; }
   .section{ padding: 80px 0; }
-  .hero{ padding: 130px 0 80px; }
+  .hero{ padding: 120px 0 60px; min-height:0; }
+  .hero-visual{ display:none; }
   .whatsapp-fab{ width:52px; height:52px; bottom:20px; left:20px; }
   .back-to-top{ bottom:20px; right:20px; }
 }
@@ -874,12 +875,15 @@ button{ font-family: inherit; cursor: pointer; }
 @media (max-width: 600px){
   .container{ padding: 0 16px; }
   .navbar-inner{ gap:10px; }
-  .logo img{ height: 30px; }
+  .logo img{ height: 36px; }
   .hero-title{ font-size: 2rem; }
   .hero-sub{ font-size: .96rem; }
   .badge-pill{ font-size:.78rem; padding:7px 14px; }
   .hero-actions{ gap:10px; }
   .hero-trust{ gap:10px; }
+  .btn{ padding: 10px 18px; font-size: .8rem; }
+  .btn-lg{ padding: 12px 22px; font-size: .88rem; }
+  .btn-sm{ padding: 8px 14px; font-size: .74rem; }
   .navbar-actions{ gap:6px; }
   .lang-toggle{ padding:2px; }
   .lang-btn{ padding:5px 7px; font-size:.68rem; }
