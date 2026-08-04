@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArGrow — Markanızı Dijital Bir Güce Dönüştürüyoruz</title>
+<meta name="description" content="ArGrow; Shopify e-ticaret kurulumu, reklam yönetimi ve otomasyon sistemleriyle işletmenizi dijitalde büyütür.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%23060806%22/><text x=%2250%22 y=%2266%22 font-size=%2258%22 font-family=%22Arial%22 font-weight=%22900%22 fill=%22%236ea23f%22 text-anchor=%22middle%22>A</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+<script>(function(){try{var l=localStorage.getItem('ea-lang');if(l==='en'){document.documentElement.setAttribute('lang','en');}}catch(e){}})();</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<div class="preloader" id="preloader">
+  <div class="preloader-mark">AG<span>.</span></div>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="logo">
+      <img src="img/argrow-logo-dark.png" alt="ArGrow">
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="active" data-i18n="nav.home">Ana Sayfa</a>
+      <a href="hizmetler.html" data-i18n="nav.services">Hizmetler</a>
+      <a href="sistemler.html" data-i18n="nav.systems">Sistemler</a>
+      <a href="yorumlar.html" data-i18n="nav.testimonials">Yorumlar</a>
+      <a href="sss.html" data-i18n="nav.faq">SSS</a>
+      <a href="iletisim.html" data-i18n="nav.contact">İletişim</a>
+    </nav>
+
+    <div class="navbar-actions">
+      <div class="lang-toggle" id="langToggle">
+        <button class="lang-btn active" data-lang="tr">TR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-primary btn-sm pulse">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.8.6.8.3 1.5.2 2 .1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.1 1 1-3-.2-.3C3.8 15.1 3.3 13.6 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.6-8.7 8.6z"/></svg>
+        <span data-i18n="nav.cta">Teklif Alın</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <canvas id="particles"></canvas>
+  <div class="hero-glow glow-1"></div>
+  <div class="hero-glow glow-2"></div>
+  <div class="hero-glow glow-3"></div>
+  <div class="hero-grid"></div>
+
+  <div class="container hero-inner">
+    <div class="hero-copy reveal-up">
+      <div class="badge-pill">
+        <span class="dot"></span> <span data-i18n="hero.badge">Shopify &amp; Büyüme Ajansı — Türkiye</span>
+      </div>
+
+      <h1 class="hero-title" data-i18n="hero.title">Markanızı <span class="text-gradient">Dijital Bir Güce</span><br>
+        Dönüştürüyoruz</h1>
+
+      <p class="hero-sub" data-i18n="hero.sub">Stratejiden tasarıma, reklam yönetiminden otomasyon sistemlerine kadar
+        uçtan uca bir e-ticaret büyüme ortağı. Sadece site kurmuyoruz;
+        <strong> satış getiren bir sistem inşa ediyoruz.</strong></p>
+
+      <div class="hero-actions">
+        <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-primary btn-lg magnetic">
+          <span data-i18n="hero.cta.primary">45 Dakika Ücretsiz Danışmanlık</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="hizmetler.html" class="btn btn-ghost btn-lg">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg>
+          <span data-i18n="hero.cta.secondary">Hizmetleri İncele</span>
+        </a>
+      </div>
+
+      <div class="hero-trust">
+        <div class="avatars">
+          <span>M</span><span>S</span><span>C</span><span>Z</span>
+        </div>
+        <div class="hero-trust-text" data-i18n="hero.trust"><strong>50+</strong> marka bize güvendi <span class="stars">★★★★★</span> <strong>4.9/5</strong></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal-up delay-2">
+      <div class="float-card card-main">
+        <div class="card-main-head">
+          <span class="live-dot"></span> <span data-i18n="hero.card.title">Canlı Mağaza Performansı</span>
+        </div>
+        <div class="chart-bars">
+          <span style="--h:35%"></span><span style="--h:52%"></span><span style="--h:40%"></span>
+          <span style="--h:68%"></span><span style="--h:58%"></span><span style="--h:82%"></span>
+          <span style="--h:74%"></span><span style="--h:95%"></span>
+        </div>
+        <div class="card-main-foot">
+          <div><span class="up">▲ 240%</span><small data-i18n="hero.card.growth">Aylık Büyüme</small></div>
+          <div><span class="num">4.2x</span><small data-i18n="hero.card.roas">Ort. ROAS</small></div>
+        </div>
+      </div>
+
+      <div class="float-card card-mini card-mini-1">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 10a4 4 0 0 1-8 0"/><path d="M3.103 6.034h17.794"/><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"/></svg>
+        <div><strong data-i18n="hero.order.title">Yeni Sipariş</strong><small>#TR-10492 · ₺1.240</small></div>
+      </div>
+
+      <div class="float-card card-mini card-mini-2">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"/></svg>
+        <div><strong data-i18n="hero.meta.title">Meta Reklam</strong><small data-i18n="hero.meta.sub">ROAS 4.2 · Aktif</small></div>
+      </div>
+
+      <div class="float-card card-mini card-mini-3">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+        <div><strong data-i18n="hero.ssl.title">SSL &amp; PayTR</strong><small data-i18n="hero.ssl.sub">Güvenli Ödeme</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span data-i18n="hero.scroll">Aşağı Kaydır</span>
+    <div class="mouse"><i></i></div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<section class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-group">
+      <span data-i18n="marquee.1">50+ Başarılı Proje</span><span data-i18n="marquee.2">7 Gün Hızlı Teslimat</span><span data-i18n="marquee.3">%98 Müşteri Memnuniyeti</span>
+      <span data-i18n="marquee.4">Şeffaf Fiyatlandırma</span><span data-i18n="marquee.5">SSL Güvenli Ödeme</span><span data-i18n="marquee.6">PayTR Entegrasyonu</span>
+      <span data-i18n="marquee.7">7/24 Teknik Destek</span><span data-i18n="marquee.8">Taksitli Ödeme İmkanı</span>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <span data-i18n="marquee.1">50+ Başarılı Proje</span><span data-i18n="marquee.2">7 Gün Hızlı Teslimat</span><span data-i18n="marquee.3">%98 Müşteri Memnuniyeti</span>
+      <span data-i18n="marquee.4">Şeffaf Fiyatlandırma</span><span data-i18n="marquee.5">SSL Güvenli Ödeme</span><span data-i18n="marquee.6">PayTR Entegrasyonu</span>
+      <span data-i18n="marquee.7">7/24 Teknik Destek</span><span data-i18n="marquee.8">Taksitli Ödeme İmkanı</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats-section">
+  <div class="container stats-grid">
+    <div class="stat-card reveal-up">
+      <span class="stat-num" data-count="50" data-suffix="+">0</span>
+      <span class="stat-label" data-i18n="stats.projects">Başarılı Proje</span>
+    </div>
+    <div class="stat-card reveal-up delay-1">
+      <span class="stat-num" data-count="42" data-decimal="1" data-suffix="x">0</span>
+      <span class="stat-label" data-i18n="stats.roas">Ortalama ROAS</span>
+    </div>
+    <div class="stat-card reveal-up delay-2">
+      <span class="stat-num" data-count="98" data-suffix="%">0</span>
+      <span class="stat-label" data-i18n="stats.satisfaction">Müşteri Memnuniyeti</span>
+    </div>
+    <div class="stat-card reveal-up delay-3">
+      <span class="stat-num" data-count="7" data-suffix="/24">0</span>
+      <span class="stat-label" data-i18n="stats.support">Kesintisiz Destek</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HİZMETLER ================= -->
+<section class="section" id="hizmetler">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow" data-i18n="services.eyebrow">Hizmetlerimiz</span>
+      <h2 data-i18n="services.title">Büyümek İçin İhtiyacınız Olan Her Şey</h2>
+      <p data-i18n="services.desc">Sıradan bir ajans yaklaşımının ötesine geçerek operasyonunuzun tüm süreçlerini uçtan uca yönetiyoruz.</p>
+    </div>
+
+    <div class="grid-6 tilt-grid">
+      <article class="tilt-card reveal-up">
+        <div class="tilt-card-inner">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5"/><path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"/><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"/></svg>
+          </div>
+          <h3 data-i18n="service.1.title">Mağaza Kurulumu</h3>
+          <p data-i18n="service.1.desc">Shopify altyapısında marka kimliğinize özel, dönüşüm odaklı ve hızlı bir e-ticaret mağazası kuruyoruz.</p>
+          <a href="magaza-kurulumu.html" class="card-link"><span data-i18n="svc.link.goto">Hizmete Git</span> <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <article class="tilt-card reveal-up delay-1">
+        <div class="tilt-card-inner">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+          </div>
+          <h3 data-i18n="service.2.title">Shopify'a Geçiş</h3>
+          <p data-i18n="service.2.desc">WooCommerce, Ticimax veya diğer altyapılardan veri kaybı yaşamadan sorunsuz bir Shopify geçişi sağlıyoruz.</p>
+          <a href="shopifye-gecis.html" class="card-link"><span data-i18n="svc.link.goto">Hizmete Git</span> <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <article class="tilt-card reveal-up delay-2">
+        <div class="tilt-card-inner">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+          </div>
+          <h3 data-i18n="service.3.title">Özel Tasarım &amp; Yazılım</h3>
+          <p data-i18n="service.3.desc">Şablonlarla sınırlı kalmadan, markanıza özgü kodlanmış lüks ve yüksek performanslı arayüzler geliştiriyoruz.</p>
+          <a href="ozel-tasarim-yazilim.html" class="card-link"><span data-i18n="svc.link.goto">Hizmete Git</span> <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <article class="tilt-card reveal-up">
+        <div class="tilt-card-inner">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/><path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14"/><path d="M8 6v8"/></svg>
+          </div>
+          <h3 data-i18n="service.4.title">Reklam Yönetimi</h3>
+          <p data-i18n="service.4.desc">Meta, Google ve Instagram üzerinde piksel/Conversion API destekli, ROAS odaklı reklam kampanyaları yönetiyoruz.</p>
+          <a href="reklam-yonetimi.html" class="card-link"><span data-i18n="svc.link.goto">Hizmete Git</span> <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <article class="tilt-card reveal-up delay-1">
+        <div class="tilt-card-inner">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></svg>
+          </div>
+          <h3 data-i18n="service.5.title">Otomasyon Sistemleri</h3>
+          <p data-i18n="service.5.desc">WhatsApp otomasyonu, canlı chatbot ve CRM entegrasyonlarıyla satış öncesi ve sonrası süreçleri otomatikleştiriyoruz.</p>
+          <a href="otomasyon-sistemleri.html" class="card-link"><span data-i18n="svc.link.goto">Hizmete Git</span> <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <article class="tilt-card reveal-up delay-2">
+        <div class="tilt-card-inner">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/><circle cx="12" cy="12" r="4"/></svg>
+          </div>
+          <h3 data-i18n="service.6.title">Teknik Destek</h3>
+          <p data-i18n="service.6.desc">Yayına aldığımız her mağazaya 7/24 kesintisiz teknik destek ve periyodik bakım hizmeti sunuyoruz.</p>
+          <a href="teknik-destek.html" class="card-link"><span data-i18n="svc.link.goto">Hizmete Git</span> <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="services-more reveal-up">
+      <a href="hizmetler.html" class="btn btn-outline btn-lg">
+        <span data-i18n="services.viewAll">Tüm Hizmetleri Gör</span>
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NEDEN BİZ ================= -->
+<section class="section why-section">
+  <div class="container why-grid">
+    <div class="why-copy reveal-up">
+      <span class="eyebrow" data-i18n="why.eyebrow">Çalışma Felsefemiz</span>
+      <h2 data-i18n="why.title">Sıradan Bir Ajans Değil, <span class="text-gradient">Büyüme Ortağınız</span></h2>
+      <p data-i18n="why.desc">Kuruluşumuzdan bu yana 50'den fazla markayı dijitale taşıdık.
+        Her proje şeffaflık, hız ve sonuç odaklılık üzerine kuruludur.</p>
+      <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-primary magnetic">
+        <span data-i18n="why.cta">Ücretsiz Danışmanlık Al</span>
+      </a>
+    </div>
+
+    <div class="why-features">
+      <div class="why-item reveal-up">
+        <div class="why-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg></div>
+        <div>
+          <h4 data-i18n="why.1.title">Strateji Önce Gelir</h4>
+          <p data-i18n="why.1.desc">Her proje hedef kitle ve rakip analiziyle başlar; temelsiz güzel değil, satış getiren siteler kuruyoruz.</p>
+        </div>
+      </div>
+      <div class="why-item reveal-up delay-1">
+        <div class="why-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <div>
+          <h4 data-i18n="why.2.title">Zamana Saygı</h4>
+          <p data-i18n="why.2.desc">Verdiğimiz teslimat tarihine uyarız. 7 iş gününde teslim diyorsak, 7. günde mağazanız yayındadır.</p>
+        </div>
+      </div>
+      <div class="why-item reveal-up delay-2">
+        <div class="why-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div>
+          <h4 data-i18n="why.3.title">Şeffaf İletişim</h4>
+          <p data-i18n="why.3.desc">Gizli maliyet ve sürpriz fatura yok. Süreç boyunca tam kontrol sizde, her adımı birlikte kararlaştırıyoruz.</p>
+        </div>
+      </div>
+      <div class="why-item reveal-up delay-3">
+        <div class="why-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div>
+          <h4 data-i18n="why.4.title">Onaylı Partner</h4>
+          <p data-i18n="why.4.desc">Shopify, Meta ve Google Partner statülerimizle güvenilir ve denetlenmiş bir iş ortağıyla çalışırsınız.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SÜREÇ ================= -->
+<section class="section process-section" id="surec">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow" data-i18n="process.eyebrow">Sürecimiz</span>
+      <h2 data-i18n="process.title">Markanızı E-Ticaret Devine Nasıl Dönüştürüyoruz?</h2>
+      <p data-i18n="process.desc">Fikrin olgunlaşmasından ilk satışa kadar her adımda yanınızdayız — uçtan uca entegre bir hizmet deneyimi.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-line"><span class="timeline-progress"></span></div>
+
+      <div class="timeline-item reveal-up">
+        <div class="timeline-num">01</div>
+        <h3 data-i18n="process.1.title">Strateji &amp; Analiz</h3>
+        <p data-i18n="process.1.desc">Markanızı, pazarınızı ve rakiplerinizi inceliyoruz. Hedef kitlenize en uygun altyapıyı ve dönüşüm odaklı tasarım mimarisini planlıyoruz.</p>
+      </div>
+      <div class="timeline-item reveal-up delay-1">
+        <div class="timeline-num">02</div>
+        <h3 data-i18n="process.2.title">Tasarım &amp; Mimari</h3>
+        <p data-i18n="process.2.desc">Hayalinizdeki mağazayı özgün, lüks ve kullanıcı dostu bir arayüzle baştan kodluyoruz. Süreç boyunca tam kontrol sizde.</p>
+      </div>
+      <div class="timeline-item reveal-up delay-2">
+        <div class="timeline-num">03</div>
+        <h3 data-i18n="process.3.title">Güven &amp; Entegrasyon</h3>
+        <p data-i18n="process.3.desc">PayTR gibi güvenilir ödeme sistemleri, güven logoları ve SSL sertifikalarıyla mağazanızı 360° güvenli hale getiriyoruz.</p>
+      </div>
+      <div class="timeline-item reveal-up delay-3">
+        <div class="timeline-num">04</div>
+        <h3 data-i18n="process.4.title">Yayın &amp; Kesintisiz Destek</h3>
+        <p data-i18n="process.4.desc">Satışa hazır mağazanızı yayına alıyoruz. İşimiz burada bitmiyor; 7/24 teknik destek ve danışmanlıkla yanınızdayız.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SİSTEMLER ================= -->
+<section class="section systems-section" id="sistemler">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow" data-i18n="systems.eyebrow">Sistemler &amp; Entegrasyonlar</span>
+      <h2 data-i18n="systems.title">İşletmeniz İçin Akıllı Sistemler</h2>
+      <p data-i18n="systems.desc">Manuel iş yükünü azaltan, satışı ve müşteri deneyimini otomatikleştiren sistemleri mağazanıza entegre ediyoruz.</p>
+    </div>
+
+    <div class="grid-6 systems-grid">
+      <div class="system-card reveal-up">
+        <div class="icon-box icon-box-alt"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg></div>
+        <h4 data-i18n="sys.1.title">WhatsApp Otomasyonu &amp; CRM</h4>
+        <p data-i18n="sys.1.desc">Otomatik yanıt, sipariş takibi ve müşteri segmentasyonuyla WhatsApp'ı satış kanalınıza dönüştürün.</p>
+      </div>
+      <div class="system-card reveal-up delay-1">
+        <div class="icon-box icon-box-alt"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div>
+        <h4 data-i18n="sys.2.title">Canlı Chatbot &amp; Destek</h4>
+        <p data-i18n="sys.2.desc">7/24 müşteri sorularını yanıtlayan, sepet terkini azaltan akıllı canlı destek sistemleri kuruyoruz.</p>
+      </div>
+      <div class="system-card reveal-up delay-2">
+        <div class="icon-box icon-box-alt"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"/><path d="M12 22V12"/><polyline points="3.29 7 12 12 20.71 7"/><path d="m7.5 4.27 9 5.15"/></svg></div>
+        <h4 data-i18n="sys.3.title">Stok &amp; Sipariş Yönetimi</h4>
+        <p data-i18n="sys.3.desc">Çoklu kanal stok senkronizasyonu ve merkezi sipariş yönetim paneliyle operasyonunuzu sadeleştirin.</p>
+      </div>
+      <div class="system-card reveal-up">
+        <div class="icon-box icon-box-alt"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></div>
+        <h4 data-i18n="sys.4.title">Kargo Entegrasyonları</h4>
+        <p data-i18n="sys.4.desc">Yurtiçi, Aras ve MNG gibi kargo firmalarıyla otomatik fatura ve takip numarası entegrasyonu.</p>
+      </div>
+      <div class="system-card reveal-up delay-1">
+        <div class="icon-box icon-box-alt"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 17V7"/><path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8"/><path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z"/></svg></div>
+        <h4 data-i18n="sys.5.title">e-Fatura &amp; Muhasebe</h4>
+        <p data-i18n="sys.5.desc">Muhasebe yazılımlarınızla entegre çalışan otomatik e-fatura ve raporlama altyapısı.</p>
+      </div>
+      <div class="system-card reveal-up delay-2">
+        <div class="icon-box icon-box-alt"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+        <h4 data-i18n="sys.6.title">Piksel &amp; Conversion API</h4>
+        <p data-i18n="sys.6.desc">Meta ve Google için doğru dönüşüm takibi sağlayan piksel ve sunucu taraflı entegrasyonlar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PAKETLER / PRICING ================= -->
+<section class="section pricing-section" id="paketler">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow" data-i18n="pricing.eyebrow">Kurulum Paketleri</span>
+      <h2 data-i18n="pricing.title">İhtiyaçlarınıza Göre Şekillenen Çözümler</h2>
+      <p data-i18n="pricing.desc">Satış odaklı, 7/24 kesintisiz destek hedeflenen kurulum paketleriyle markanızı büyütüyoruz.</p>
+
+      <span class="pricing-static" data-i18n="pricing.staticLabel">Shopify Kurulum</span>
+    </div>
+
+    <div class="pricing-grid" id="panel-setup">
+      <div class="price-card reveal-up">
+        <div class="price-card-head">
+          <h3 data-i18n="price.startup.name">Startup</h3>
+          <span class="price-tag" data-i18n="price.startup.tag">Hızlı Giriş</span>
+        </div>
+        <p class="price-desc" data-i18n="price.startup.desc">Temel gereksinimler için ideal. Hızlı, güvenilir ve ROI odaklı bir ilk adım.</p>
+        <div class="price-amount">
+          <span class="old">15.000₺</span>
+          <span class="new">9.999₺</span>
+        </div>
+        <ul class="price-features">
+          <li data-i18n="price.startup.f1">7 İş Gününde Hızlı Teslimat</li>
+          <li data-i18n="price.startup.f2">Kusursuz E-Ticaret Altyapısı</li>
+          <li data-i18n="price.startup.f3">Marka Renklerinize Özel Tasarım</li>
+          <li data-i18n="price.startup.f4">Yıllık Yenileme &amp; Bakım</li>
+          <li data-i18n="price.startup.f5">Kredi Kartı ve Taksit Entegrasyonu</li>
+        </ul>
+        <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-outline btn-block" data-i18n="price.startup.btn">Ön Görüşme Ayarla</a>
+      </div>
+
+      <div class="price-card price-featured reveal-up delay-1">
+        <span class="featured-badge" data-i18n="price.badge.popular">EN ÇOK TERCİH EDİLEN</span>
+        <div class="price-card-head">
+          <h3 data-i18n="price.pro.name">Profesyonel Satış Makinesi</h3>
+          <span class="price-tag" data-i18n="price.pro.tag">Büyüyen Markalar</span>
+        </div>
+        <p class="price-desc" data-i18n="price.pro.desc">Özene önem veren ve pazar payını hızla büyütmek isteyenler için.</p>
+        <div class="price-amount">
+          <span class="old">20.000₺</span>
+          <span class="new">14.999₺</span>
+        </div>
+        <ul class="price-features">
+          <li data-i18n="price.pro.f1">10 İş Gününde Teslimat</li>
+          <li data-i18n="price.pro.f2">Özel Kodlama &amp; Gelişmiş Tasarım</li>
+          <li data-i18n="price.pro.f3">50 Adete Kadar Ürün Girişi &amp; SEO</li>
+          <li data-i18n="price.pro.f4">Kusursuz Mobil ve Hız Optimizasyonu</li>
+          <li data-i18n="price.pro.f5">ROI Odaklı Özel Yapı</li>
+          <li data-i18n="price.pro.f6">Satış Arttırıcı Özel Modüller</li>
+        </ul>
+        <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-primary btn-block magnetic" data-i18n="price.pro.btn">Strateji Toplantısı Planla</a>
+      </div>
+
+      <div class="price-card reveal-up delay-2">
+        <div class="price-card-head">
+          <h3 data-i18n="price.vip.name">360° VIP Ekosistem</h3>
+          <span class="price-tag" data-i18n="price.vip.tag">Tam Kapsam</span>
+        </div>
+        <p class="price-desc" data-i18n="price.vip.desc">Hızlı, kusursuz ve Meta dahil 7/24 desteklenen premium e-ticaret hizmeti.</p>
+        <div class="price-amount">
+          <span class="old">50.000₺</span>
+          <span class="new">29.999₺</span>
+        </div>
+        <ul class="price-features">
+          <li data-i18n="price.vip.f1">14 İş Gününde VIP Teslim</li>
+          <li data-i18n="price.vip.f2">Pro Paketteki Her Şey Dahil</li>
+          <li data-i18n="price.vip.f3">1 Aylık Meta (FB/IG) Yönetimi</li>
+          <li data-i18n="price.vip.f4">Piksel &amp; Conversion API</li>
+          <li data-i18n="price.vip.f5">Google SEO Optimizasyonu</li>
+          <li data-i18n="price.vip.f6">Instagram Shop Entegrasyonu</li>
+        </ul>
+        <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-outline btn-block" data-i18n="price.vip.btn">VIP Görüşmesi Ayarla</a>
+      </div>
+    </div>
+
+    <div class="price-note reveal-up">
+      <span data-i18n="price.note1">PayTR Güvencesiyle</span>
+      <span data-i18n="price.note2">7/24 Destek</span>
+      <span data-i18n="price.note3">SSL Güvenli Ödeme</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= YORUMLAR ================= -->
+<section class="section testimonials-section" id="yorumlar">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow" data-i18n="testi.eyebrow">Müşteri Yorumları</span>
+      <h2 data-i18n="testi.title">Müşterilerimiz Ne Diyor?</h2>
+      <p data-i18n="testi.desc">50'den fazla başarılı projenin arkasındaki gerçek deneyimler.</p>
+    </div>
+
+    <div class="testimonial-slider">
+      <div class="testimonial-track" id="testiTrack">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="testi.1.text">"Mağazamı 7 günde kurdu, ilk haftadan satış gelmeye başladı. Teknik desteği de çok hızlı, her soruma anında dönüyor."</p>
+          <div class="testi-author"><span class="avatar">M</span><div><strong>Mehmet K.</strong><small data-i18n="testi.1.role">Tekstil Mağazası Sahibi · ✓ Doğrulandı</small></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="testi.2.text">"Rakiplerime kıyasla çok daha şık bir site oldu. Müşterilerim 'profesyonel' dediklerini söylüyor. Yatırımın karşılığını fazlasıyla aldım."</p>
+          <div class="testi-author"><span class="avatar">S</span><div><strong>Selin A.</strong><small data-i18n="testi.2.role">Kozmetik Girişimcisi · ✓ Doğrulandı</small></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="testi.3.text">"WooCommerce'den Shopify'a geçişte hiç veri kaybı yaşamadık. Tüm ürünlerimiz, siparişlerimiz eksiksiz geldi. Süreç tamamen şeffaf yönetildi."</p>
+          <div class="testi-author"><span class="avatar">C</span><div><strong>Can D.</strong><small data-i18n="testi.3.role">E-Ticaret Yöneticisi · ✓ Doğrulandı</small></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="testi.4.text">"Meta reklamlarımı da ArGrow ekibi yönetiyor. İlk ay ROAS 4.2'ye çıktı. Hem site hem reklam aynı ekipte olunca işler çok daha hızlı ilerliyor."</p>
+          <div class="testi-author"><span class="avatar">Z</span><div><strong>Zeynep T.</strong><small data-i18n="testi.4.role">Moda Markası Kurucusu · ✓ Doğrulandı</small></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="testi.5.text">"Fiyat konusunda çok şeffaftı, gizli maliyet çıkmadı. Teslimat zamanına tam uyuldu. Bu sektörde güven çok önemli, doğru tercihi yaptım."</p>
+          <div class="testi-author"><span class="avatar">B</span><div><strong>Burak S.</strong><small data-i18n="testi.5.role">Elektronik Aksesuar Satıcısı · ✓ Doğrulandı</small></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="testi.6.text">"Mobil optimizasyon muhteşem oldu. Google PageSpeed skorumuz 90'ın üzerine çıktı. Sepet terk oranımız da belirgin şekilde düştü."</p>
+          <div class="testi-author"><span class="avatar">A</span><div><strong>Ayşe M.</strong><small data-i18n="testi.6.role">Online Gıda Girişimcisi · ✓ Doğrulandı</small></div></div>
+        </div>
+
+      </div>
+
+      <div class="testimonial-controls">
+        <button id="testiPrev" aria-label="Önceki"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="testimonial-dots" id="testiDots"></div>
+        <button id="testiNext" aria-label="Sonraki"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SSS ================= -->
+<section class="section faq-section" id="sss">
+  <div class="container faq-wrap">
+    <div class="section-head reveal-up" style="text-align:left; margin:0;">
+      <span class="eyebrow" data-i18n="faq.eyebrow">Sıkça Sorulan Sorular</span>
+      <h2 data-i18n="faq.title">Merak Edilenler</h2>
+      <p data-i18n="faq.desc">Aradığınız cevabı bulamadınız mı? Bize 45 dakikalık ücretsiz danışmanlık görüşmesinde sorabilirsiniz.</p>
+      <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-primary magnetic" data-i18n="faq.cta">WhatsApp'tan Sorun</a>
+    </div>
+
+    <div class="faq-list reveal-up delay-1">
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q1">Mağazam ne kadar sürede yayına alınır?</span> <span class="faq-icon"></span></button>
+        <div class="faq-a"><p data-i18n="faq.a1">Pakete göre değişmekle birlikte Startup pakette 7, Profesyonel pakette 10, 360° VIP pakette 14 iş günü içinde mağazanız yayında olur.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q2">Mevcut sitemden Shopify'a geçiş yaparken veri kaybı yaşanır mı?</span> <span class="faq-icon"></span></button>
+        <div class="faq-a"><p data-i18n="faq.a2">Hayır. Ürünleriniz, siparişleriniz ve müşteri verileriniz eksiksiz ve şeffaf bir şekilde aktarılır; süreç boyunca kontrol sizde kalır.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q3">Kurulum paketleri ile Sistemler hizmetleri arasındaki fark nedir?</span> <span class="faq-icon"></span></button>
+        <div class="faq-a"><p data-i18n="faq.a3">Kurulum paketleri tek seferlik mağaza kurulumunu kapsar. Sistemler ise WhatsApp otomasyonu, chatbot ve CRM gibi satış öncesi/sonrası süreçlerinizi güçlendiren ek entegrasyon hizmetleridir.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q4">Reklam yönetimi hizmetinde bütçe siz mi belirliyorsunuz?</span> <span class="faq-icon"></span></button>
+        <div class="faq-a"><p data-i18n="faq.a4">Reklam bütçesini her zaman siz belirlersiniz; biz stratejiyi kurar, piksel/Conversion API entegrasyonlarını yapar ve performansı optimize ederiz.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q5">Gizli maliyet veya ek ücret çıkar mı?</span> <span class="faq-icon"></span></button>
+        <div class="faq-a"><p data-i18n="faq.a5">Hayır. Teklif aşamasında konuşulan fiyat dışında hiçbir sürpriz ücret talep edilmez; tüm süreç şeffaf şekilde yürütülür.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q6">Teknik bir sorun yaşarsam ne kadar sürede dönüş alırım?</span> <span class="faq-icon"></span></button>
+        <div class="faq-a"><p data-i18n="faq.a6">Standart destek yanıt süremiz 48 saattir; VIP pakette ve öncelikli projelerde bu süre çok daha kısadır.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BÜYÜK CTA ================= -->
+<section class="big-cta">
+  <div class="big-cta-glow"></div>
+  <div class="container big-cta-inner reveal-up">
+    <span class="eyebrow eyebrow-light" data-i18n="bigcta.eyebrow">45 Dakikalık Ücretsiz Danışmanlık Al!</span>
+    <h2 data-i18n="bigcta.title">Projenize En Uygun Çözümü <br class="br-desktop"> Birlikte Belirleyelim</h2>
+    <p data-i18n="bigcta.desc">Ekibimiz kısa süre içinde sizinle iletişime geçerek ihtiyaçlarınızı detaylı şekilde analiz eder ve size en doğru çözümü sunar.</p>
+    <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-light btn-lg magnetic">
+      <span data-i18n="bigcta.btn">Ücretsiz Teklif Al</span>
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
+    <small data-i18n="bigcta.note">Kredi kartı gerekmez · 45 dakika ücretsiz</small>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><img src="img/argrow-logo-dark.png" alt="ArGrow"></a>
+      <p data-i18n="footer.tagline">Markaların dijital dünyada sadece var olmasını değil, gerçekten büyümesini sağlıyoruz.</p>
+      <div class="footer-social">
+        <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.8.6.8.3 1.5.2 2 .1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.1 1 1-3-.2-.3C3.8 15.1 3.3 13.6 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.6-8.7 8.6z"/></svg></a>
+        <a href="mailto:eadigitalltr@gmail.com" aria-label="E-posta"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></a>
+        <a href="tel:+905451534770" aria-label="Telefon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.services">Hizmetler</h4>
+      <a href="hizmetler.html" data-i18n="service.1.title">Mağaza Kurulumu</a>
+      <a href="hizmetler.html" data-i18n="service.2.title">Shopify'a Geçiş</a>
+      <a href="hizmetler.html" data-i18n="service.3.title">Özel Tasarım &amp; Yazılım</a>
+      <a href="hizmetler.html" data-i18n="service.4.title">Reklam Yönetimi</a>
+      <a href="sistemler.html" data-i18n="footer.automation">Otomasyon Sistemleri</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.corporate">Kurumsal</h4>
+      <a href="surec.html" data-i18n="nav.process">Sürecimiz</a>
+      <a href="paketler.html" data-i18n="nav.pricing">Paketler</a>
+      <a href="yorumlar.html" data-i18n="nav.testimonials">Yorumlar</a>
+      <a href="sss.html" data-i18n="nav.faq">SSS</a>
+      <a href="iletisim.html" data-i18n="nav.contact">İletişim</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.contact">İletişim</h4>
+      <a href="mailto:eadigitalltr@gmail.com">eadigitalltr@gmail.com</a>
+      <a href="tel:+905451534770">+90 545 153 47 70</a>
+      <span>Tokat / Turhal</span>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span data-i18n="footer.rightsFull">© <span id="year"></span> ArGrow. Tüm hakları saklıdır.</span>
+      <span>Shopify Partner · Meta Partner · Google Partner</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Yukarı çık">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+</button>
+
+<a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="whatsapp-fab" aria-label="WhatsApp ile iletişime geç">
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.8.6.8.3 1.5.2 2 .1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.1 1 1-3-.2-.3C3.8 15.1 3.3 13.6 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.6-8.7 8.6z"/></svg>
+  <span class="whatsapp-ping"></span>
+</a>
+
+<script src="js/i18n-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
