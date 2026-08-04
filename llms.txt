@@ -1,0 +1,35 @@
+# ArGrow
+
+> ArGrow, Türkiye merkezli bir Shopify ve e-ticaret büyüme ajansıdır. Mağaza kurulumu, platform geçişi, özel tasarım & yazılım, reklam yönetimi (Meta/Google/Instagram), otomasyon sistemleri (WhatsApp, chatbot, CRM/ERP) ve teknik destek hizmetleri sunar.
+
+İletişim: argrownet@gmail.com · +90 545 153 47 70 · Tokat / Turhal, Türkiye
+
+## Ana Sayfalar
+
+- [ArGrow — Markanızı Dijital Bir Güce Dönüştürüyoruz](https://argrow.net/): ArGrow; Shopify e-ticaret kurulumu, reklam yönetimi ve otomasyon sistemleriyle işletmenizi dijitalde büyütür.
+- [Hizmetlerimiz — ArGrow](https://argrow.net/hizmetler/): Shopify mağaza kurulumu, platform geçişi, özel tasarım & yazılım, reklam yönetimi, otomasyon sistemleri ve teknik destek — ArGrow hizmetleri.
+- [İletişim — ArGrow](https://argrow.net/iletisim/): ArGrow ile iletişime geçin — argrownet@gmail.com, +90 545 153 47 70, Tokat / Turhal.
+- [Kurulum Paketleri — ArGrow](https://argrow.net/paketler/): Shopify kurulum paketleri — Startup, Profesyonel Satış Makinesi ve 360° VIP Ekosistem.
+- [Sistemler & Entegrasyonlar — ArGrow](https://argrow.net/sistemler/): WhatsApp otomasyonu, canlı chatbot, stok yönetimi, kargo entegrasyonları, e-fatura ve piksel/Conversion API sistemleri — ArGrow.
+- [Sıkça Sorulan Sorular — ArGrow](https://argrow.net/sss/): Teslimat süreleri, Shopify geçişi, kurulum paketleri ve destek hakkında sıkça sorulan sorular — ArGrow.
+- [Sürecimiz — ArGrow](https://argrow.net/surec/): Strateji & analizden yayın & kesintisiz desteğe kadar ArGrow'un uçtan uca e-ticaret büyüme süreci.
+- [Müşteri Yorumları — ArGrow](https://argrow.net/yorumlar/): 50'den fazla başarılı projenin arkasındaki gerçek müşteri deneyimleri — ArGrow müşteri yorumları.
+
+## Hizmet / Ürün Sayfaları
+
+- [Chatbot Yapma — ArGrow](https://argrow.net/chatbot-yapma/): Web siteniz ve WhatsApp için soruları otomatik yanıtlayan, satışa yönlendiren akıllı chatbot'lar geliştiriyoruz.
+- [CRM / ERP Ön Muhasebe Programı — ArGrow](https://argrow.net/crm-erp-on-muhasebe/): Müşteri ilişkilerinizi ve ön muhasebe süreçlerinizi tek panelden yönetebileceğiniz özel CRM/ERP yazılımları kuruyoruz.
+- [Google Business Profil Açılışı — ArGrow](https://argrow.net/google-business-profil/): İşletmenizi Google Haritalar ve aramalarda öne çıkaran Google Business Profili'ni sizin için oluşturup optimize ediyoruz.
+- [Google Maps Veri Çekme — ArGrow](https://argrow.net/google-maps-veri-cekme/): Hedef kitlenize uygun işletme verilerini Google Maps'ten toplayarak pazarlama stratejinize veri sağlıyoruz.
+- [Google Workspace Kurulumu — ArGrow](https://argrow.net/google-workspace-kurulumu/): Kurumsal e-posta, Drive, Takvim ve ekip araçlarını içeren Google Workspace'i işletmeniz için kurup yapılandırıyoruz.
+- [İşletme Çözümleri — ArGrow](https://argrow.net/isletme-cozumleri/): Stoktan personel yönetimine, raporlamadan süreç otomasyonuna kadar işletmenize özel dijital çözümler üretiyoruz.
+- [Kâr / Zarar Takip Paneli — ArGrow](https://argrow.net/kar-zarar/): İşletmeniz için profesyonel kâr / zarar takip paneli — ArGrow premium hizmeti.
+- [Mağaza Kurulumu — ArGrow](https://argrow.net/magaza-kurulumu/): Shopify altyapısında marka kimliğinize özel, dönüşüm odaklı ve hızlı bir e-ticaret mağazası kuruyoruz.
+- [Mobil Uygulama Geliştirme — ArGrow](https://argrow.net/mobil-uygulama-gelistirme/): İşletmeniz için Play Store ve App Store'da yayınlanan, iOS ve Android uyumlu mobil uygulamalar geliştiriyoruz.
+- [Muhasebe Sistemleri — ArGrow](https://argrow.net/muhasebe-sistemleri/): Gelir-gider takibinizi kolaylaştıran, muhasebe yazılımlarınızla entegre çalışan otomasyon sistemleri kuruyoruz.
+- [Otomasyon Sistemleri — ArGrow](https://argrow.net/otomasyon-sistemleri/): WhatsApp otomasyonu, canlı chatbot ve CRM entegrasyonlarıyla satış öncesi ve sonrası süreçleri otomatikleştiriyoruz.
+- [Özel Tasarım & Yazılım — ArGrow](https://argrow.net/ozel-tasarim-yazilim/): Şablonlarla sınırlı kalmadan, markanıza özgü kodlanmış lüks ve yüksek performanslı arayüzler geliştiriyoruz.
+- [QR Menü Sistemi — ArGrow](https://argrow.net/qr-menu/): Restoran ve kafeler için markalı, premium QR menü sistemi — ArGrow.
+- [Reklam Yönetimi — ArGrow](https://argrow.net/reklam-yonetimi/): Meta, Google ve Instagram üzerinde piksel/Conversion API destekli, ROAS odaklı reklam kampanyaları yönetiyoruz.
+- [Shopify'a Geçiş — ArGrow](https://argrow.net/shopifye-gecis/): WooCommerce, Ticimax veya diğer altyapılardan veri kaybı yaşamadan sorunsuz bir Shopify geçişi sağlıyoruz.
+- [Teknik Destek — ArGrow](https://argrow.net/teknik-destek/): Yayına aldığımız her mağazaya 7/24 kesintisiz teknik destek ve periyodik bakım hizmeti sunuyoruz.
