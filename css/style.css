@@ -863,9 +863,11 @@ button{ font-family: inherit; cursor: pointer; }
   .timeline{ grid-template-columns: 1fr; }
   .form-row{ grid-template-columns: 1fr; }
   .footer-grid{ grid-template-columns: 1fr; }
+  .footer-bottom-inner{ flex-direction:column; align-items:flex-start; padding-left:76px; }
   .section{ padding: 80px 0; }
   .hero{ padding: 120px 0 60px; min-height:0; }
   .hero-visual{ display:none; }
+  .scroll-cue{ display:none; }
   .whatsapp-fab{ width:52px; height:52px; bottom:20px; left:20px; }
   .back-to-top{ bottom:20px; right:20px; }
 }
