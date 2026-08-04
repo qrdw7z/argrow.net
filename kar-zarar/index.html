@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kâr / Zarar Takip Paneli — ArGrow</title>
+<meta name="description" content="İşletmeniz için profesyonel kâr / zarar takip paneli — ArGrow premium hizmeti.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%23060806%22/><text x=%2250%22 y=%2266%22 font-size=%2258%22 font-family=%22Arial%22 font-weight=%22900%22 fill=%22%236ea23f%22 text-anchor=%22middle%22>A</text></svg>">
+<link rel="stylesheet" href="/css/style.css">
+<script>(function(){try{var l=localStorage.getItem('ea-lang');if(l==='en'){document.documentElement.setAttribute('lang','en');}}catch(e){}})();</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<div class="preloader" id="preloader">
+  <div class="preloader-mark">AG<span>.</span></div>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="/" class="logo">
+      <img src="/img/argrow-logo-dark.png" alt="ArGrow">
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="/" data-i18n="nav.home">Ana Sayfa</a>
+      <a href="/hizmetler/" class="active" data-i18n="nav.services">Hizmetler</a>
+      <a href="/sistemler/" data-i18n="nav.systems">Sistemler</a>
+      <a href="/yorumlar/" data-i18n="nav.testimonials">Yorumlar</a>
+      <a href="/sss/" data-i18n="nav.faq">SSS</a>
+      <a href="/iletisim/" data-i18n="nav.contact">İletişim</a>
+    </nav>
+
+    <div class="navbar-actions">
+      <div class="lang-toggle" id="langToggle">
+        <button class="lang-btn active" data-lang="tr">TR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-primary btn-sm pulse">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.8.6.8.3 1.5.2 2 .1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.1 1 1-3-.2-.3C3.8 15.1 3.3 13.6 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.6-8.7 8.6z"/></svg>
+        <span data-i18n="nav.cta">Teklif Alın</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= PAGE HEADER ================= -->
+<section class="page-header">
+  <div class="hero-glow glow-1"></div>
+  <div class="hero-glow glow-2"></div>
+  <div class="hero-grid"></div>
+  <div class="container page-header-inner reveal-up">
+    <div class="breadcrumb"><a href="/" data-i18n="nav.home">Ana Sayfa</a><span>/</span><a href="/hizmetler/" data-i18n="nav.services">Hizmetler</a><span>/</span><span data-i18n="service.9.title">Kâr / Zarar Hesaplama</span></div>
+    <h1 data-i18n="service.9.title">Kâr / Zarar Hesaplama</h1>
+    <p data-i18n="service.9.desc">Ürün bazlı maliyet, kâr marjı ve zarar analizini saniyeler içinde yapan hesaplama araçları geliştiriyoruz.</p>
+  </div>
+</section>
+
+<!-- ================= ÜRÜN TANITIMI ================= -->
+<section class="section" style="padding-top:20px;">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">✨ <span data-i18n="pl2.premium.badge">Premium</span> <span data-i18n="pl2.product.eyebrowSuffix">Ürün</span></span>
+      <h2 data-i18n="pl2.product.title">İşletmeniz İçin Profesyonel Kâr / Zarar Takip Paneli</h2>
+      <p data-i18n="pl2.product.desc">Ürün bazlı satış, maliyet ve gider verilerinizi tek panelden yönetin; tarih bazlı geçmişinizi ve kâr grafiklerinizi görün, dilediğiniz zaman Excel ve PDF olarak dışa aktarın.</p>
+    </div>
+
+    <!-- Örnek görünüm (statik) -->
+    <div class="tool-card-lg product-preview reveal-up">
+      <span class="preview-ribbon" data-i18n="pl2.previewRibbon">Örnek Görünüm</span>
+      <div class="tool-card-lg-head">
+        <div class="icon-box">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 10a4 4 0 0 1-8 0"/><path d="M3.103 6.034h17.794"/><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"/></svg>
+        </div>
+        <div>
+          <h3 data-i18n="pl2.products.title">Ürünler</h3>
+          <p data-i18n="pl2.products.desc">Panelde birden fazla ürün ekleyip her biri için satış fiyatı, maliyet ve adet girersiniz.</p>
+        </div>
+      </div>
+      <div class="pl-table-wrap">
+        <table class="pl-table pl-table-static">
+          <thead>
+            <tr>
+              <th data-i18n="pl2.col.name">Ürün Adı</th>
+              <th data-i18n="pl2.col.price">Satış (₺)</th>
+              <th data-i18n="pl2.col.cost">Maliyet (₺)</th>
+              <th data-i18n="pl2.col.qty">Adet</th>
+              <th data-i18n="pl2.col.profit">Kâr</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td data-i18n="pl2.sample.p1">Tişört</td><td>250,00 ₺</td><td>120,00 ₺</td><td>18</td><td class="pl-cell-out up">2.340,00 ₺</td></tr>
+            <tr><td data-i18n="pl2.sample.p2">Kupa Bardak</td><td>90,00 ₺</td><td>45,00 ₺</td><td>32</td><td class="pl-cell-out up">1.440,00 ₺</td></tr>
+            <tr><td data-i18n="pl2.sample.p3">Kolye</td><td>180,00 ₺</td><td>150,00 ₺</td><td>9</td><td class="pl-cell-out down">-270,00 ₺</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="summary-grid" style="margin-top:24px;">
+        <div class="summary-card"><span class="summary-label" data-i18n="pl2.sum.revenue">Toplam Gelir</span><span class="summary-value">10.170,00 ₺</span></div>
+        <div class="summary-card"><span class="summary-label" data-i18n="pl2.sum.expense">Toplam Gider</span><span class="summary-value">2.400,00 ₺</span></div>
+        <div class="summary-card summary-card-highlight"><span class="summary-label" data-i18n="pl2.sum.net">Net Kâr</span><span class="summary-value up">3.510,00 ₺</span></div>
+        <div class="summary-card summary-card-highlight"><span class="summary-label" data-i18n="pl2.sum.margin">Net Kâr Marjı</span><span class="summary-value up">%34,5</span></div>
+      </div>
+    </div>
+
+    <!-- Satın alma -->
+    <div class="premium-card reveal-up delay-1">
+      <span class="premium-badge">✨ <span data-i18n="pl2.premium.badge">Premium</span></span>
+      <h3 data-i18n="qr2.premium.ctaTitle">Kendi Panelinize Kavuşun</h3>
+      <p data-i18n="pl2.premium.desc">Satın aldığınızda size özel giriş bilgileriyle panelinize erişir; sınırsız ürün/gider kaydı, tarih bazlı geçmiş, aylık grafikler ve Excel/PDF dışa aktarma özelliklerini kullanmaya başlarsınız.</p>
+      <ul class="premium-features">
+        <li data-i18n="pl2.premium.f1">Sınırsız kayıt & tarih bazlı geçmiş</li>
+        <li data-i18n="pl2.premium.f2">Aylık / haftalık kâr grafikleri</li>
+        <li data-i18n="pl2.premium.f3">Excel (.xlsx) dışa aktarma</li>
+        <li data-i18n="pl2.premium.f4">PDF rapor oluşturma</li>
+      </ul>
+      <div class="product-price" style="justify-content:center;">
+        <div class="product-price-item">
+          <span class="product-price-label" data-i18n="price.label.setup">Kurulum</span>
+          <span class="product-price-amount" data-i18n="pl2.price.setupAmount">799₺</span>
+        </div>
+        <span class="product-price-plus">+</span>
+        <div class="product-price-item">
+          <span class="product-price-label" data-i18n="price.label.monthly">Aylık</span>
+          <span class="product-price-amount" data-i18n="pl2.price.monthlyAmount">199₺<small>/ay</small></span>
+        </div>
+      </div>
+      <p class="product-price-note" data-i18n="price.note">*Sektöre göre değişen ortalama fiyattır, size özel teklif için iletişime geçin.</p>
+      <a href="https://wa.me/905451534770?text=Merhaba%2C%20K%C3%A2r/Zarar%20takip%20panelini%20sat%C4%B1n%20almak%20istiyorum%2C%20fiyat%20bilgisi%20alabilir%20miyim%3F" target="_blank" rel="noopener" class="btn btn-primary btn-block magnetic" data-i18n="pl2.product.cta">Fiyat Teklifi Al</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= BÜYÜK CTA ================= -->
+<section class="big-cta">
+  <div class="big-cta-glow"></div>
+  <div class="container big-cta-inner reveal-up">
+    <span class="eyebrow eyebrow-light" data-i18n="bigcta.eyebrow">45 Dakikalık Ücretsiz Danışmanlık Al!</span>
+    <h2 data-i18n="bigcta.title">Projenize En Uygun Çözümü <br class="br-desktop"> Birlikte Belirleyelim</h2>
+    <p data-i18n="bigcta.desc">Ekibimiz kısa süre içinde sizinle iletişime geçerek ihtiyaçlarınızı detaylı şekilde analiz eder ve size en doğru çözümü sunar.</p>
+    <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="btn btn-light btn-lg magnetic">
+      <span data-i18n="bigcta.btn">Ücretsiz Teklif Al</span>
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
+    <small data-i18n="bigcta.note">Kredi kartı gerekmez · 45 dakika ücretsiz</small>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="/" class="logo"><img src="/img/argrow-logo-dark.png" alt="ArGrow"></a>
+      <p data-i18n="footer.tagline">Markaların dijital dünyada sadece var olmasını değil, gerçekten büyümesini sağlıyoruz.</p>
+      <div class="footer-social">
+        <a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.8.6.8.3 1.5.2 2 .1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.1 1 1-3-.2-.3C3.8 15.1 3.3 13.6 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.6-8.7 8.6z"/></svg></a>
+        <a href="mailto:eadigitalltr@gmail.com" aria-label="E-posta"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></a>
+        <a href="tel:+905451534770" aria-label="Telefon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.services">Hizmetler</h4>
+      <a href="/hizmetler/" data-i18n="service.1.title">Mağaza Kurulumu</a>
+      <a href="/hizmetler/" data-i18n="service.2.title">Shopify'a Geçiş</a>
+      <a href="/hizmetler/" data-i18n="service.3.title">Özel Tasarım &amp; Yazılım</a>
+      <a href="/hizmetler/" data-i18n="service.4.title">Reklam Yönetimi</a>
+      <a href="/sistemler/" data-i18n="footer.automation">Otomasyon Sistemleri</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.corporate">Kurumsal</h4>
+      <a href="/surec/" data-i18n="nav.process">Sürecimiz</a>
+      <a href="/paketler/" data-i18n="nav.pricing">Paketler</a>
+      <a href="/yorumlar/" data-i18n="nav.testimonials">Yorumlar</a>
+      <a href="/sss/" data-i18n="nav.faq">SSS</a>
+      <a href="/iletisim/" data-i18n="nav.contact">İletişim</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.contact">İletişim</h4>
+      <a href="mailto:eadigitalltr@gmail.com">eadigitalltr@gmail.com</a>
+      <a href="tel:+905451534770">+90 545 153 47 70</a>
+      <span>Tokat / Turhal</span>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span data-i18n="footer.rightsFull">© <span id="year"></span> ArGrow. Tüm hakları saklıdır.</span>
+      <span>Shopify Partner · Meta Partner · Google Partner</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Yukarı çık">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+</button>
+
+<a href="https://wa.me/905451534770?text=Merhaba%20ArGrow%20ekibi%20bir%20projemiz%20var" target="_blank" rel="noopener" class="whatsapp-fab" aria-label="WhatsApp ile iletişime geç">
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.8.6.8.3 1.5.2 2 .1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.1 1 1-3-.2-.3C3.8 15.1 3.3 13.6 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.6-8.7 8.6z"/></svg>
+  <span class="whatsapp-ping"></span>
+</a>
+
+<script src="/js/i18n-data.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
