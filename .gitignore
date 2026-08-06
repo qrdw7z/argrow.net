@@ -2,3 +2,5 @@
 Thumbs.db
 *.log
 /ArGrowLogo.png
+.vercel
+.env*

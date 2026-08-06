@@ -56,8 +56,8 @@ var EA_I18N = {
     "en": "Explore Services"
   },
   "hero.trust": {
-    "tr": "<strong>50+</strong> marka bize güvendi <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>",
-    "en": "<strong>50+</strong> brands trust us <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>"
+    "tr": "<strong>150+</strong> marka bize güvendi <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>",
+    "en": "<strong>150+</strong> brands trust us <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>"
   },
   "hero.card.title": {
     "tr": "Canlı Mağaza Performansı",
@@ -96,36 +96,36 @@ var EA_I18N = {
     "en": "Scroll Down"
   },
   "marquee.1": {
-    "tr": "50+ Başarılı Proje",
-    "en": "50+ Successful Projects"
+    "tr": "Shopify Partner",
+    "en": "Shopify Partner"
   },
   "marquee.2": {
-    "tr": "7 Gün Hızlı Teslimat",
-    "en": "7-Day Fast Delivery"
+    "tr": "Meta Business Partner",
+    "en": "Meta Business Partner"
   },
   "marquee.3": {
-    "tr": "%98 Müşteri Memnuniyeti",
-    "en": "98% Customer Satisfaction"
+    "tr": "Google Ads Partner",
+    "en": "Google Ads Partner"
   },
   "marquee.4": {
-    "tr": "Şeffaf Fiyatlandırma",
-    "en": "Transparent Pricing"
-  },
-  "marquee.5": {
-    "tr": "SSL Güvenli Ödeme",
-    "en": "SSL Secure Payment"
-  },
-  "marquee.6": {
-    "tr": "PayTR Entegrasyonu",
+    "tr": "PayTR Entegrasyon",
     "en": "PayTR Integration"
   },
+  "marquee.5": {
+    "tr": "WhatsApp Business API",
+    "en": "WhatsApp Business API"
+  },
+  "marquee.6": {
+    "tr": "Instagram Shopping",
+    "en": "Instagram Shopping"
+  },
   "marquee.7": {
-    "tr": "7/24 Teknik Destek",
-    "en": "7/24 Technical Support"
+    "tr": "SSL Güvenceli",
+    "en": "SSL Secured"
   },
   "marquee.8": {
-    "tr": "Taksitli Ödeme İmkanı",
-    "en": "Installment Payment Option"
+    "tr": "7/24 Teknik Destek",
+    "en": "24/7 Technical Support"
   },
   "stats.projects": {
     "tr": "Başarılı Proje",
@@ -368,8 +368,8 @@ var EA_I18N = {
     "en": "Pixel and server-side integrations that deliver accurate conversion tracking for Meta and Google."
   },
   "pricing.eyebrow": {
-    "tr": "Kurulum Paketleri",
-    "en": "Setup Packages"
+    "tr": "Paketler &amp; Abonelikler",
+    "en": "Packages &amp; Subscriptions"
   },
   "pricing.title": {
     "tr": "İhtiyaçlarınıza Göre Şekillenen Çözümler",
@@ -380,8 +380,8 @@ var EA_I18N = {
     "en": "Solutions Shaped Around Your Needs"
   },
   "pricing.desc": {
-    "tr": "Satış odaklı, 7/24 kesintisiz destek hedeflenen kurulum paketleriyle markanızı büyütüyoruz.",
-    "en": "We grow your brand with sales-focused setup packages backed by 7/24 support."
+    "tr": "Satış odaklı, 7/24 kesintisiz destek hedeflenen kurulum paketleri ve büyüme abonelikleri ile markanızı büyütüyoruz.",
+    "en": "We grow your brand with sales-focused setup packages and growth subscriptions backed by 7/24 support."
   },
   "price.badge.popular": {
     "tr": "EN ÇOK TERCİH EDİLEN",
@@ -528,8 +528,8 @@ var EA_I18N = {
     "en": "What Our Clients Say"
   },
   "testi.desc": {
-    "tr": "50'den fazla başarılı projenin arkasındaki gerçek deneyimler.",
-    "en": "Real experiences behind 50+ successful projects."
+    "tr": "Yüzlerce başarılı projenin arkasındaki gerçek deneyimler.",
+    "en": "Real experiences behind hundreds of successful projects."
   },
   "testi.1.text": {
     "tr": "\"Mağazamı 7 günde kurdu, ilk haftadan satış gelmeye başladı. Teknik desteği de çok hızlı, her soruma anında dönüyor.\"",
@@ -616,12 +616,12 @@ var EA_I18N = {
     "en": "No. Your products, orders, and customer data are transferred completely and transparently — you stay in control throughout the process."
   },
   "faq.q3": {
-    "tr": "Kurulum paketleri ile Sistemler hizmetleri arasındaki fark nedir?",
-    "en": "What's the difference between the setup packages and the Systems services?"
+    "tr": "Aylık abonelik sistemleri ile kurulum paketleri arasındaki fark nedir?",
+    "en": "What's the difference between the monthly subscription systems and the setup packages?"
   },
   "faq.a3": {
-    "tr": "Kurulum paketleri tek seferlik mağaza kurulumunu kapsar. Sistemler ise WhatsApp otomasyonu, chatbot ve CRM gibi satış öncesi/sonrası süreçlerinizi güçlendiren ek entegrasyon hizmetleridir.",
-    "en": "Setup packages cover a one-time store build. Systems are additional integration services — like WhatsApp automation, chatbots, and CRM — that strengthen your pre- and post-sale processes."
+    "tr": "Kurulum paketleri tek seferlik mağaza kurulumunu kapsar. Abonelik sistemleri ise bakım, reklam yönetimi ve otomasyonları içeren sürekli büyüme hizmetleridir.",
+    "en": "Setup packages cover a one-time store build. Subscription systems are ongoing growth services covering maintenance, ad management, and automations."
   },
   "faq.q4": {
     "tr": "Reklam yönetimi hizmetinde bütçe siz mi belirliyorsunuz?",
@@ -644,8 +644,8 @@ var EA_I18N = {
     "en": "How quickly will I hear back if I run into a technical issue?"
   },
   "faq.a6": {
-    "tr": "Standart destek yanıt süremiz 48 saattir; VIP pakette ve öncelikli projelerde bu süre çok daha kısadır.",
-    "en": "Our standard support response time is 48 hours — much faster for VIP-package and priority projects."
+    "tr": "Abonelik planınıza göre değişmekle birlikte standart destek yanıt süremiz 48 saat, öncelikli planlarda ise çok daha hızlıdır.",
+    "en": "Response time varies by subscription plan, but our standard is 48 hours — much faster on priority plans."
   },
   "bigcta.eyebrow": {
     "tr": "45 Dakikalık Ücretsiz Danışmanlık Al!",
@@ -856,8 +856,8 @@ var EA_I18N = {
     "en": "Products"
   },
   "pl2.products.desc": {
-    "tr": "Birden fazla ürün ekleyip her biri için satış fiyatı, maliyet ve adet girin.",
-    "en": "Add multiple products and enter the sale price, cost, and quantity for each."
+    "tr": "Panelde birden fazla ürün ekleyip her biri için satış fiyatı, maliyet ve adet girersiniz.",
+    "en": "In the panel, add multiple products and enter the sale price, cost, and quantity for each."
   },
   "pl2.col.name": {
     "tr": "Ürün Adı",
@@ -900,8 +900,8 @@ var EA_I18N = {
     "en": "Premium"
   },
   "pl2.premium.desc": {
-    "tr": "Hesaplamalarınızı bulutta saklayın, tarih bazlı geçmiş grafiklerinizi görün, Excel ve PDF olarak dışa aktarın.",
-    "en": "Store your calculations in the cloud, view date-based history charts, and export as Excel and PDF."
+    "tr": "Satın aldığınızda size özel giriş bilgileriyle panelinize erişir; sınırsız ürün/gider kaydı, tarih bazlı geçmiş, aylık grafikler ve Excel/PDF dışa aktarma özelliklerini kullanmaya başlarsınız.",
+    "en": "Once purchased, you get access to your panel with personal login credentials — unlimited product/expense records, date-based history, monthly charts, and Excel/PDF export."
   },
   "pl2.premium.f1": {
     "tr": "Sınırsız kayıt & tarih bazlı geçmiş",
@@ -920,16 +920,16 @@ var EA_I18N = {
     "en": "PDF report generation"
   },
   "qr2.premium.desc": {
-    "tr": "Sadece bir link değil; ürünlerinizi, fiyatlarınızı ve kategorilerinizi girerek gerçek, markalı bir dijital menü sayfası oluşturuyor ve size özel QR kodla yayınlıyoruz.",
-    "en": "Not just a link — we build a real, branded digital menu page with your products, prices, and categories, and publish it with your own QR code."
+    "tr": "Sadece bir link değil; ürünlerinizi, fiyatlarınızı ve kategorilerinizi girerek gerçek, markalı bir dijital menü sayfası oluşturuyor ve logolu, size özel renklerde bir QR kodla yayınlıyoruz.",
+    "en": "Not just a link — we build a real, branded digital menu page with your products, prices, and categories, and publish it with a QR code featuring your logo and custom colors."
   },
   "qr2.premium.f1": {
     "tr": "Ürün, kategori ve fiyat listesi ile tam dijital menü",
     "en": "Full digital menu with products, categories, and pricing"
   },
   "qr2.premium.f2": {
-    "tr": "Markanıza özel tasarım ve alan adı",
-    "en": "Custom branded design and domain"
+    "tr": "Markanıza özel tasarım, logo ve renkler",
+    "en": "Custom branded design, logo, and colors"
   },
   "qr2.premium.f3": {
     "tr": "Anında güncelleme — QR kodu değişmez",
