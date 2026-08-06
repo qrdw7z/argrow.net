@@ -91,6 +91,11 @@
     }
 
     /* ---------------- Theme toggle (dark/light) ---------------- */
+    function syncLogoTheme(isLight){
+      document.querySelectorAll('.logo img').forEach(function(img){
+        img.src = isLight ? '/img/argrow-logo-light.png' : '/img/ArGrowLogo.png';
+      });
+    }
     var themeToggle = document.getElementById('themeToggle');
     if(themeToggle){
       themeToggle.addEventListener('click', function(){
@@ -98,9 +103,11 @@
         if(isLight){
           document.documentElement.removeAttribute('data-theme');
           localStorage.setItem('ea-theme', 'dark');
+          syncLogoTheme(false);
         } else {
           document.documentElement.setAttribute('data-theme', 'light');
           localStorage.setItem('ea-theme', 'light');
+          syncLogoTheme(true);
         }
       });
     }
