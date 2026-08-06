@@ -56,8 +56,8 @@ var EA_I18N = {
     "en": "Explore Services"
   },
   "hero.trust": {
-    "tr": "<strong>150+</strong> marka bize güvendi <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>",
-    "en": "<strong>150+</strong> brands trust us <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>"
+    "tr": "<strong>50+</strong> marka bize güvendi <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>",
+    "en": "<strong>50+</strong> brands trust us <span class=\"stars\">★★★★★</span> <strong>4.9/5</strong>"
   },
   "hero.card.title": {
     "tr": "Canlı Mağaza Performansı",
@@ -528,8 +528,8 @@ var EA_I18N = {
     "en": "What Our Clients Say"
   },
   "testi.desc": {
-    "tr": "Yüzlerce başarılı projenin arkasındaki gerçek deneyimler.",
-    "en": "Real experiences behind hundreds of successful projects."
+    "tr": "50'den fazla başarılı projenin arkasındaki gerçek deneyimler.",
+    "en": "Real experiences behind 50+ successful projects."
   },
   "testi.1.text": {
     "tr": "\"Mağazamı 7 günde kurdu, ilk haftadan satış gelmeye başladı. Teknik desteği de çok hızlı, her soruma anında dönüyor.\"",
