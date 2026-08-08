@@ -1240,20 +1240,20 @@ var EA_I18N = {
     "en": "269₺<small>/mo</small>"
   },
   "qr2.price.setupAmount": {
-    "tr": "2.499₺",
-    "en": "2.499₺"
+    "tr": "5.000₺",
+    "en": "5.000₺"
   },
   "qr2.price.monthlyAmount": {
-    "tr": "99₺<small>/ay</small>",
-    "en": "99₺<small>/mo</small>"
+    "tr": "200₺<small>/ay</small>",
+    "en": "200₺<small>/mo</small>"
   },
   "pl2.price.setupAmount": {
-    "tr": "799₺",
-    "en": "799₺"
+    "tr": "999₺",
+    "en": "999₺"
   },
   "pl2.price.monthlyAmount": {
-    "tr": "199₺<small>/ay</small>",
-    "en": "199₺<small>/mo</small>"
+    "tr": "100₺<small>/ay</small>",
+    "en": "100₺<small>/mo</small>"
   },
   "sp.store.title": {
     "tr": "Marka Kimliğinize Özel Shopify Mağazası",
@@ -1376,12 +1376,12 @@ var EA_I18N = {
     "en": "Weekly performance reporting"
   },
   "sp.ads.setupAmount": {
-    "tr": "1.999₺",
-    "en": "1.999₺"
+    "tr": "5.000₺",
+    "en": "5.000₺"
   },
   "sp.ads.monthlyAmount": {
-    "tr": "2.999₺<small>/ay</small>",
-    "en": "2.999₺<small>/mo</small>"
+    "tr": "29.999₺<small>/ay</small>",
+    "en": "29.999₺<small>/mo</small>"
   },
   "sp.ads.priceNoteExtra": {
     "tr": "*Reklam bütçesi bu fiyata dahil değildir; bütçenizi her zaman siz belirlersiniz.",
@@ -1444,11 +1444,11 @@ var EA_I18N = {
     "en": "Performance & security checks"
   },
   "sp.support.monthlyAmount": {
-    "tr": "499₺<small>/ay</small>",
-    "en": "499₺<small>/mo</small>"
+    "tr": "750₺",
+    "en": "750₺"
   },
   "price.label.monthlyOnly": {
-    "tr": "Aylık",
-    "en": "Monthly"
+    "tr": "İş Başı",
+    "en": "Per Visit"
   }
 };
