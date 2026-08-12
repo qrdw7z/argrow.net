@@ -1450,5 +1450,125 @@ var EA_I18N = {
   "price.label.monthlyOnly": {
     "tr": "İş Başı",
     "en": "Per Visit"
+  },
+  "service.17.title": {
+    "tr": "E-posta Pazarlaması",
+    "en": "Email Marketing"
+  },
+  "service.17.desc": {
+    "tr": "Otomasyon akışları, segmentasyon ve düzenli kampanyalarla e-posta listenizi satışa dönüştürüyoruz.",
+    "en": "We turn your email list into revenue with automation flows, segmentation, and regular campaigns."
+  },
+  "service.18.title": {
+    "tr": "Sosyal Medya Yönetimi",
+    "en": "Social Media Management"
+  },
+  "service.18.desc": {
+    "tr": "İçerik üretiminden paylaşım planlamasına, marka hesaplarınızı Instagram ve diğer platformlarda uçtan uca yönetiyoruz.",
+    "en": "We manage your brand's accounts end to end on Instagram and other platforms — from content creation to post scheduling."
+  },
+  "service.19.title": {
+    "tr": "Takipçi Satışı",
+    "en": "Follower Growth"
+  },
+  "service.19.desc": {
+    "tr": "Gerçek ve aktif kullanıcılardan oluşan güvenli takipçi paketleriyle sosyal medya hesabınızın görünürlüğünü artırıyoruz.",
+    "en": "We boost your social account's visibility with safe follower packages made up of real, active users."
+  },
+  "sp.email.title": {
+    "tr": "Otomasyon Akışlı, Segmentasyon Destekli E-posta Pazarlaması",
+    "en": "Email Marketing with Automation Flows & Segmentation"
+  },
+  "sp.email.desc": {
+    "tr": "Karşılama serisi, terk edilmiş sepet ve yeniden kazanma akışlarıyla e-posta listenizi düzenli bir gelir kanalına çeviriyoruz; her kampanya sonrası detaylı raporlama alırsınız.",
+    "en": "We turn your email list into a steady revenue channel with welcome series, abandoned cart, and win-back flows — with detailed reporting after every campaign."
+  },
+  "sp.email.f1": {
+    "tr": "Karşılama, terk edilmiş sepet ve yeniden kazanma otomasyonları",
+    "en": "Welcome, abandoned cart & win-back automations"
+  },
+  "sp.email.f2": {
+    "tr": "Segmentasyona dayalı hedefli kampanyalar",
+    "en": "Segmentation-based targeted campaigns"
+  },
+  "sp.email.f3": {
+    "tr": "Marka kimliğinize özel e-posta şablonları",
+    "en": "Email templates tailored to your brand identity"
+  },
+  "sp.email.f4": {
+    "tr": "Açılma, tıklama ve gelir bazlı aylık raporlama",
+    "en": "Monthly open, click & revenue-based reporting"
+  },
+  "sp.email.setupAmount": {
+    "tr": "2.499₺",
+    "en": "2,499₺"
+  },
+  "sp.email.monthlyAmount": {
+    "tr": "3.999₺<small>/ay</small>",
+    "en": "3,999₺<small>/mo</small>"
+  },
+  "sp.email.priceNoteExtra": {
+    "tr": "*E-posta gönderim platformu (Klaviyo, Mailchimp vb.) abonelik ücreti bu fiyata dahil değildir.",
+    "en": "*The email sending platform subscription (Klaviyo, Mailchimp, etc.) is not included in this price."
+  },
+  "sp.social.title": {
+    "tr": "İçerik Üretiminden Paylaşıma Uçtan Uca Sosyal Medya Yönetimi",
+    "en": "End-to-End Social Media Management, From Content to Publishing"
+  },
+  "sp.social.desc": {
+    "tr": "Aylık içerik takvimi, görsel/reels üretimi ve düzenli paylaşımlarla marka hesaplarınızı büyütüyoruz; performansı her ay raporluyoruz.",
+    "en": "We grow your brand's accounts with a monthly content calendar, visual/reels production, and regular posting — with monthly performance reporting."
+  },
+  "sp.social.f1": {
+    "tr": "Aylık içerik takvimi ve strateji planlaması",
+    "en": "Monthly content calendar & strategy planning"
+  },
+  "sp.social.f2": {
+    "tr": "Görsel, story ve reels üretimi",
+    "en": "Visual, story & reels production"
+  },
+  "sp.social.f3": {
+    "tr": "Haftalık düzenli paylaşım ve topluluk yönetimi",
+    "en": "Weekly regular posting & community management"
+  },
+  "sp.social.f4": {
+    "tr": "Aylık performans ve büyüme raporlaması",
+    "en": "Monthly performance & growth reporting"
+  },
+  "sp.social.setupAmount": {
+    "tr": "2.999₺",
+    "en": "2,999₺"
+  },
+  "sp.social.monthlyAmount": {
+    "tr": "14.999₺<small>/ay</small>",
+    "en": "14,999₺<small>/mo</small>"
+  },
+  "sp.followers.title": {
+    "tr": "Gerçek ve Aktif Takipçilerle Sosyal Medya Görünürlüğünü Artırın",
+    "en": "Boost Your Social Visibility with Real, Active Followers"
+  },
+  "sp.followers.desc": {
+    "tr": "Düşme riski olmayan, gerçek ve aktif kullanıcılardan oluşan takipçi paketleriyle hesabınızın güvenilirliğini ve erişimini artırıyoruz.",
+    "en": "We increase your account's credibility and reach with drop-proof follower packages made up of real, active users."
+  },
+  "sp.followers.f1": {
+    "tr": "Gerçek ve aktif profillerden oluşan takipçiler",
+    "en": "Followers from real, active profiles"
+  },
+  "sp.followers.f2": {
+    "tr": "Düşmeye karşı garanti",
+    "en": "Drop-protection guarantee"
+  },
+  "sp.followers.f3": {
+    "tr": "Hesap güvenliğinize uygun kademeli teslimat",
+    "en": "Gradual delivery that keeps your account safe"
+  },
+  "sp.followers.f4": {
+    "tr": "İşletme hedefinize göre özel paket seçenekleri",
+    "en": "Custom package options based on your business goals"
+  },
+  "sp.followers.fromAmount": {
+    "tr": "499₺'den",
+    "en": "From 499₺"
   }
 };
