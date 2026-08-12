@@ -1568,7 +1568,7 @@ var EA_I18N = {
     "en": "Custom package options based on your business goals"
   },
   "sp.followers.fromAmount": {
-    "tr": "499₺'den",
-    "en": "From 499₺"
+    "tr": "299₺'den",
+    "en": "From 299₺"
   }
 };
