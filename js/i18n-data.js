@@ -23,10 +23,6 @@ var EA_I18N = {
     "tr": "Yorumlar",
     "en": "Reviews"
   },
-  "nav.appointment": {
-    "tr": "Randevu Al",
-    "en": "Book a Meeting"
-  },
   "nav.faq": {
     "tr": "SSS",
     "en": "FAQ"
