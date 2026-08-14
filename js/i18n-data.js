@@ -23,6 +23,10 @@ var EA_I18N = {
     "tr": "Yorumlar",
     "en": "Reviews"
   },
+  "nav.appointment": {
+    "tr": "Randevu Al",
+    "en": "Book a Meeting"
+  },
   "nav.faq": {
     "tr": "SSS",
     "en": "FAQ"
@@ -578,6 +582,22 @@ var EA_I18N = {
   "testi.6.role": {
     "tr": "Online Gıda Girişimcisi · ✓ Doğrulandı",
     "en": "Online Food Entrepreneur · ✓ Verified"
+  },
+  "appointment.eyebrow": {
+    "tr": "Görüşme Planlayın",
+    "en": "Schedule a Call"
+  },
+  "appointment.title": {
+    "tr": "Bizimle Randevu Alın",
+    "en": "Book a Meeting With Us"
+  },
+  "appointment.desc": {
+    "tr": "Size en uygun gün ve saati seçin, ekibimizle birebir görüşerek projenizi konuşalım.",
+    "en": "Pick the day and time that works best for you and let's discuss your project one-on-one with our team."
+  },
+  "appointment.btn": {
+    "tr": "Randevu Al",
+    "en": "Book Now"
   },
   "faq.eyebrow": {
     "tr": "Sıkça Sorulan Sorular",
