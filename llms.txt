@@ -2,13 +2,14 @@
 
 > ArGrow, Türkiye merkezli bir Shopify ve e-ticaret büyüme ajansıdır. Mağaza kurulumu, platform geçişi, özel tasarım & yazılım, reklam yönetimi (Meta/Google/Instagram), otomasyon sistemleri (WhatsApp, chatbot, CRM/ERP) ve teknik destek hizmetleri sunar.
 
-İletişim: info@argrow.net · +90 545 153 47 70 · Tokat / Turhal, Türkiye
+İletişim: info@argrow.net · +90 545 153 47 70 · İstanbul, Türkiye
+Instagram: https://www.instagram.com/argrownet/
 
 ## Ana Sayfalar
 
 - [ArGrow — Markanızı Dijital Bir Güce Dönüştürüyoruz](https://www.argrow.net/): ArGrow; Shopify e-ticaret kurulumu, reklam yönetimi ve otomasyon sistemleriyle işletmenizi dijitalde büyütür.
 - [Hizmetlerimiz — ArGrow](https://www.argrow.net/hizmetler/): Shopify mağaza kurulumu, platform geçişi, özel tasarım & yazılım, reklam yönetimi, otomasyon sistemleri ve teknik destek — ArGrow hizmetleri.
-- [İletişim — ArGrow](https://www.argrow.net/iletisim/): ArGrow ile iletişime geçin — info@argrow.net, +90 545 153 47 70, Tokat / Turhal.
+- [İletişim — ArGrow](https://www.argrow.net/iletisim/): ArGrow ile iletişime geçin — info@argrow.net, +90 545 153 47 70, İstanbul.
 - [Kurulum Paketleri — ArGrow](https://www.argrow.net/paketler/): Shopify kurulum paketleri — Startup, Profesyonel Satış Makinesi ve 360° VIP Ekosistem.
 - [Sistemler & Entegrasyonlar — ArGrow](https://www.argrow.net/sistemler/): WhatsApp otomasyonu, canlı chatbot, stok yönetimi, kargo entegrasyonları, e-fatura ve piksel/Conversion API sistemleri — ArGrow.
 - [Sıkça Sorulan Sorular — ArGrow](https://www.argrow.net/sss/): Teslimat süreleri, Shopify geçişi, kurulum paketleri ve destek hakkında sıkça sorulan sorular — ArGrow.
@@ -33,3 +34,6 @@
 - [Reklam Yönetimi — ArGrow](https://www.argrow.net/reklam-yonetimi/): Meta, Google ve Instagram üzerinde piksel/Conversion API destekli, ROAS odaklı reklam kampanyaları yönetiyoruz.
 - [Shopify'a Geçiş — ArGrow](https://www.argrow.net/shopifye-gecis/): WooCommerce, Ticimax veya diğer altyapılardan veri kaybı yaşamadan sorunsuz bir Shopify geçişi sağlıyoruz.
 - [Teknik Destek — ArGrow](https://www.argrow.net/teknik-destek/): Yayına aldığımız her mağazaya 7/24 kesintisiz teknik destek ve periyodik bakım hizmeti sunuyoruz.
+- [E-posta Pazarlaması — ArGrow](https://www.argrow.net/eposta-pazarlamasi/): Otomasyon akışları, segmentasyon ve düzenli kampanyalarla e-posta listenizi satışa dönüştürüyoruz.
+- [Sosyal Medya Yönetimi — ArGrow](https://www.argrow.net/sosyal-medya-yonetimi/): İçerik üretiminden paylaşım planlamasına, marka hesaplarınızı Instagram ve diğer platformlarda uçtan uca yönetiyoruz.
+- [Takipçi Satışı — ArGrow](https://www.argrow.net/takipci-satisi/): Gerçek ve aktif kullanıcılardan oluşan güvenli takipçi paketleriyle sosyal medya hesabınızın görünürlüğünü artırıyoruz.
