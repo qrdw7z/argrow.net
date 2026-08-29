@@ -1586,5 +1586,17 @@ var EA_I18N = {
   "sp.followers.fromAmount": {
     "tr": "299₺'den",
     "en": "From 299₺"
+  },
+  "systems.cta": {
+    "tr": "Tüm Sistemleri Gör",
+    "en": "Explore All Systems"
+  },
+  "faq.seeAll": {
+    "tr": "Tüm Soruları Gör",
+    "en": "See All FAQs"
+  },
+  "convert.eyebrow2": {
+    "tr": "Hazır mısınız?",
+    "en": "Ready?"
   }
 };
