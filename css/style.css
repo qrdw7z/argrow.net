@@ -1,8 +1,9 @@
 /* ============================================================
    ARGROW — Black & White Agency Theme
+   Fonts are loaded via <link> tags in each page's <head> (with
+   preconnect) instead of @import here, so the browser can start
+   fetching them immediately instead of waiting on this file.
    ============================================================ */
-
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap');
 
 :root{
   --bg: #0a0a0a;

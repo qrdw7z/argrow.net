@@ -93,7 +93,7 @@
     /* ---------------- Theme toggle (dark/light) ---------------- */
     function syncLogoTheme(isLight){
       document.querySelectorAll('.logo img').forEach(function(img){
-        img.src = isLight ? '/img/argrow-logo-light.png' : '/img/ArGrowLogo.png';
+        img.src = isLight ? '/img/argrow-logo-light.webp' : '/img/ArGrowLogo.webp';
       });
     }
     var themeToggle = document.getElementById('themeToggle');
