@@ -1595,8 +1595,32 @@ var EA_I18N = {
     "tr": "Tüm Soruları Gör",
     "en": "See All FAQs"
   },
-  "convert.eyebrow2": {
-    "tr": "Hazır mısınız?",
-    "en": "Ready?"
+  "pillar.1.title": {
+    "tr": "Mağaza &amp; Tasarım",
+    "en": "Store &amp; Design"
+  },
+  "pillar.1.desc": {
+    "tr": "Shopify altyapısında marka kimliğinize özel, hızlı ve dönüşüm odaklı bir e-ticaret mağazası kuruyoruz.",
+    "en": "We build a fast, conversion-focused Shopify store custom-built around your brand identity."
+  },
+  "pillar.1.link": {
+    "tr": "Hizmetleri Gör",
+    "en": "Explore Services"
+  },
+  "pillar.2.title": {
+    "tr": "Reklam &amp; Büyüme",
+    "en": "Ads &amp; Growth"
+  },
+  "pillar.2.desc": {
+    "tr": "Meta, Google ve Instagram'da ROAS odaklı, piksel/Conversion API destekli kampanyalarla sürekli müşteri akışı sağlıyoruz.",
+    "en": "ROAS-focused Meta, Google, and Instagram campaigns backed by pixel/Conversion API tracking, driving a steady stream of customers."
+  },
+  "pillar.3.title": {
+    "tr": "Otomasyon &amp; Destek",
+    "en": "Automation &amp; Support"
+  },
+  "pillar.3.desc": {
+    "tr": "WhatsApp otomasyonu, canlı chatbot ve stok/kargo entegrasyonlarıyla operasyonunuzu sadeleştirip 7/24 yanınızda oluyoruz.",
+    "en": "WhatsApp automation, live chatbot, and inventory/shipping integrations simplify your operations, backed by round-the-clock support."
   }
 };
