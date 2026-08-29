@@ -209,7 +209,6 @@ button{ font-family: inherit; cursor: pointer; }
   background: rgba(6,8,6,.75);
   backdrop-filter: blur(16px) saturate(140%);
   border-color: var(--border);
-  box-shadow: 0 12px 34px -24px rgba(0,0,0,.65);
 }
 .navbar-inner{ display:flex; align-items:center; justify-content:space-between; gap:24px; }
 
@@ -904,55 +903,4 @@ button{ font-family: inherit; cursor: pointer; }
 
 @media (max-width: 360px){
   .lang-toggle{ display:none; }
-}
-
-/* ============================================================
-   MINIMAL HOMEPAGE REDESIGN — v2
-   Bigger type, single-column hero, fewer/wider sections, more air.
-   ============================================================ */
-
-/* ---------- hero: single centered column, no floating cards ---------- */
-.hero-inner-solo{
-  grid-template-columns: 1fr; justify-items:center; text-align:center;
-  max-width: 800px; margin: 0 auto;
-}
-.hero-title-xl{ font-size: clamp(2.6rem, 6.4vw, 4.6rem); }
-.hero-inner-solo .hero-sub{ margin-left:auto; margin-right:auto; }
-.hero-inner-solo .hero-actions{ justify-content:center; }
-.hero-inner-solo .hero-trust{ justify-content:center; }
-.hero-link{
-  display:inline-flex; align-items:center; gap:6px; padding:14px 4px;
-  font-weight:700; font-size:.92rem; color: var(--text-dim); transition: color .25s, gap .25s;
-}
-.hero-link:hover{ color: var(--accent); gap:10px; }
-body.home .hero{ min-height: 92vh; padding: 150px 0 90px; }
-
-/* more breathing room between sections — scoped to the homepage only,
-   so subpages keep their existing rhythm. */
-body.home .section{ padding: 130px 0; }
-.section-tight{ padding: 90px 0; }
-body.home .section-head{ margin-bottom: 64px; }
-body.home .section-head h2{ font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
-
-/* ---------- pillars (replaces the old 6-card services + systems + why grids) ---------- */
-.pillars-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap:40px; }
-.pillar-card{ text-align:center; padding: 12px; }
-.pillar-icon{
-  width:72px; height:72px; margin: 0 auto 26px; border-radius:20px; display:flex; align-items:center; justify-content:center;
-  background: rgba(212,178,90,.1); color: var(--accent); border:1px solid rgba(212,178,90,.2);
-}
-.pillar-card h3{ font-size:1.3rem; color:var(--text); }
-.pillar-card p{ font-size:.98rem; max-width:340px; margin-left:auto; margin-right:auto; }
-.pillar-card .card-link{ position:relative; justify-content:center; display:inline-flex; }
-
-/* ---------- appointment embed, no border chrome ---------- */
-.appointment-embed{ max-width:900px; margin:0 auto; border-radius: var(--radius); overflow:hidden; }
-
-@media (max-width: 900px){
-  .pillars-grid{ grid-template-columns: 1fr; gap:48px; }
-  body.home .section{ padding: 90px 0; }
-}
-@media (max-width: 720px){
-  body.home .hero{ padding: 130px 0 60px; min-height:0; }
-  body.home .section-head{ margin-bottom: 44px; }
 }
